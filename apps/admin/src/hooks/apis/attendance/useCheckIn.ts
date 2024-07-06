@@ -3,8 +3,8 @@ import { useMutation, useQueryClient } from '@tanstack/react-query';
 
 import type { CustomError } from '../../../apis';
 import { api } from '../../../apis';
-import { useSnackBar } from '../../../components/SnackBar/useSnackBar';
 import { useGeolocation } from '../../useGeolocation';
+import { useSnackBar } from '@depromeet-makers-fe/ui/src/components/SnackBar/useSnackBar'; // TODO @kimyouknow
 
 interface CheckInResponse {
   code: string;
